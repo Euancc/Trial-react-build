@@ -5,11 +5,19 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="container">
-        <div className="logo">Diver</div>
+        <div className="logo">
+          <a href="#">Diver</a>
+        </div>
         <ul className="nav">
-          <li>Home</li>
-          <li>Services</li>
-          <li>About</li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
         </ul>
       </div>
     </nav>

@@ -9,7 +9,8 @@ function Header() {
           <h1>Dive Finder</h1>
           <p>
             Let us take you away to the most unique diving locations in the
-            world
+            world. We will organize your flights, accomadation and food for the
+            entire trip
           </p>
         </div>
         <img src="freedive.jpg" alt="Diver" />

@@ -17,8 +17,14 @@
 
 .navbar ul li {
   margin-left: 20px;
+  font-size: 20px;
 }
 
 ul {
   list-style-type: none;
+}
+
+.logo {
+  font-size: x-large;
+  font-weight: bold;
 }

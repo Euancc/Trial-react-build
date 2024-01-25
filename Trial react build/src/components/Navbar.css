@@ -4,7 +4,7 @@
   height: 60px;
 }
 
-.navbar .logo {
+.navbar .logo a {
   font-size: x-large;
   font-weight: bold;
 }

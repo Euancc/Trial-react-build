@@ -9,7 +9,7 @@ function Navbar() {
           <a href="#">Diver</a>
         </div>
         <ul className="nav">
-          <li>
+          <li className="nav-button">
             <a href="#">Home</a>
           </li>
           <li>

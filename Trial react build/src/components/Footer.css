@@ -1,0 +1,13 @@
+footer {
+  min-height: 200px;
+  background: #3467;
+}
+
+.footer .foot-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 90px;
+}

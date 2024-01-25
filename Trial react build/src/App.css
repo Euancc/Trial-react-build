@@ -18,6 +18,7 @@
   line-height: 1.5;
   color: #333;
   background: #a1c3ff;
+  min-height: 100vh;
 }
 
 h1,

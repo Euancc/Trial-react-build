@@ -7,10 +7,24 @@ export default function Footer() {
       <div className="foot-container">
         <div>
           <h3>Contact us</h3>
+
           <p>divewithus@gmail.com</p>
+          <p>0800 838383</p>
+          <p>Postal address:</p>
+          <p>Dive Finder</p>
+          <p>PO Box 975</p>
+          <p>Panatina Ridge</p>
+          <p>Guadalcanal</p>
         </div>
         <div>
           <h3>Sign up to our newsletter</h3>
+          <div className="email-sect">
+            <p>Get updated with the latest offers!</p>
+            <form>
+              <label for="email">Enter your email: </label>
+              <input type="email"></input>
+            </form>
+          </div>
         </div>
         <div>
           <h3>Connect with us</h3>

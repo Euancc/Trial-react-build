@@ -3,11 +3,20 @@ footer {
   background: #3467;
 }
 
-.footer .foot-container {
+.foot-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   height: 100%;
   margin: 0 auto;
-  padding: 0 90px;
+  padding: 10px 15px;
+  max-width: 1400px;
+}
+
+.foot-container > div {
+  padding: 15px;
+}
+
+.email-sect {
+  flex-direction: column;
+  align-items: center;
 }

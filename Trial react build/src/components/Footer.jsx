@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="foot-container">
-        <div>
+        <div className="footer-item">
           <h3>Contact us</h3>
 
           <p>divewithus@gmail.com</p>
@@ -16,7 +16,7 @@ export default function Footer() {
           <p>Panatina Ridge</p>
           <p>Guadalcanal</p>
         </div>
-        <div>
+        <div className="footer-item">
           <h3>Sign up to our newsletter</h3>
           <div className="email-sect">
             <p>Get updated with the latest offers!</p>
@@ -26,8 +26,9 @@ export default function Footer() {
             </form>
           </div>
         </div>
-        <div>
+        <div className="footer-item">
           <h3>Connect with us</h3>
+          <image src="instgram.png"></image>
         </div>
       </div>
     </footer>

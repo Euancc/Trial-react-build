@@ -28,7 +28,11 @@ export default function Footer() {
         </div>
         <div className="footer-item">
           <h3>Connect with us</h3>
-          <image src="instgram.png"></image>
+          <div className="social-icons">
+            <a href="#" className="fa fa-facebook"></a>
+            <a href="#" className="fa fa-twitter"></a>
+            <a href="#" className="fa fa-instagram"></a>
+          </div>
         </div>
       </div>
     </footer>

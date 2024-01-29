@@ -1,7 +1,7 @@
 footer {
   min-height: 200px;
   background: #3467;
-
+  line-height: 1;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -22,6 +22,13 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center content vertically */
+  height: 70%; /* Occupy full height of the parent */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content vertically */
   height: 70%; /* Occupy full height of the parent */
 }
 
@@ -51,11 +58,4 @@ footer {
 .fa-instagram {
   background: #475158;
   color: white;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Center content vertically */
-  height: 70%; /* Occupy full height of the parent */
 }

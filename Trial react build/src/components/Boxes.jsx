@@ -17,7 +17,7 @@ function Boxes() {
         </div>
 
         <div className="box-sect">
-          <div className="box"></div>
+          <img src="untouched.jpg" />
           <div className="box">
             <h2>Variety of packages</h2>
             <p>
@@ -35,7 +35,7 @@ function Boxes() {
               qualified and can train you while on-board
             </p>
           </div>
-          <div className="box"></div>
+          <img src="untouched.jpg" />
         </div>
       </div>
     </section>

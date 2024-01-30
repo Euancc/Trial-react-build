@@ -6,23 +6,29 @@
 
 .box {
   flex: 1;
+  display: flex;
+  flex-direction: column;
   background: #0a51cc;
   color: #fff;
   border-radius: 10px;
-
+  text-align: center;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
-  padding: 15px 20px;
-  max-width: 600px;
+  padding: 15px 15px;
+  max-width: 400px;
+  line-height: 1;
 }
 
 .box-sect img {
   padding: 0%;
+  margin: 15px;
+  width: 600px;
   flex: 1;
   border-radius: 10px;
-  max-width: 600px;
 }
 
 .box-sect {
   display: flex;
-  margin: 15px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

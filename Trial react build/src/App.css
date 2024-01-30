@@ -41,4 +41,10 @@ h2 {
     padding-top: 20px;
     text-align: center;
   }
+
+  .boxes .box-sect {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+  }
 }

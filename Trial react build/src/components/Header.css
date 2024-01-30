@@ -1,6 +1,8 @@
 header {
-  background-color: rgb(29, 94, 179);
-  min-height: 400px;
+  background-image: url('Sail.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   color: #fff;
   font-size: 20px;
   line-height: 1.5;

@@ -13,7 +13,6 @@ function Header() {
             entire trip
           </p>
         </div>
-        <img src="freedive.jpg" alt="Diver" />
       </div>
     </header>
   )

@@ -17,13 +17,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background: #a1c3ff;
+  background: #c3ccdc;
   min-height: 100vh;
 }
 
 h1,
 h2 {
-  margin-bottom: 15px;
+  margin: 5px;
 }
 
 @media (max-width: 768px) {

@@ -8,7 +8,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  background: #0a51cc;
+  background: #8baadf;
   color: #fff;
   border-radius: 10px;
   text-align: center;
@@ -21,7 +21,7 @@
 .box-sect img {
   padding: 0%;
   margin: 15px;
-  width: 600px;
+  max-width: 700px;
   flex: 1;
   border-radius: 10px;
 }
@@ -31,4 +31,8 @@
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.box-sect p {
+  margin: 0.5em;
 }

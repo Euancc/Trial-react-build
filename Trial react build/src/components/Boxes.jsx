@@ -4,6 +4,7 @@ import './Boxes.css'
 function Boxes() {
   return (
     <section className="boxes">
+      <hr width="90%" size="2" />
       <div className="container">
         <div className="box-sect">
           <div className="box">
@@ -15,7 +16,6 @@ function Boxes() {
           </div>
           <img src="untouched.jpg" />
         </div>
-
         <div className="box-sect">
           <img src="packages.jpg" />
           <div className="box">
@@ -26,7 +26,6 @@ function Boxes() {
             </p>
           </div>
         </div>
-
         <div className="box-sect">
           <div className="box">
             <h2>Training</h2>
@@ -38,6 +37,7 @@ function Boxes() {
           <img src="dive-training.jpg" />
         </div>
       </div>
+      <hr width="90%" size="2" />
     </section>
   )
 }

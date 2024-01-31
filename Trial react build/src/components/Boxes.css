@@ -2,37 +2,45 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-.box {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  background: #8baadf;
-  color: #fff;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
-  padding: 15px 15px;
-  max-width: 400px;
-  line-height: 1;
+  margin-bottom: 30px;
 }
-
-.box-sect img {
-  padding: 0%;
-  margin: 15px;
-  max-width: 700px;
-  flex: 1;
-  border-radius: 10px;
+.boxes hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
 .box-sect {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .box-sect p {
   margin: 0.5em;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #1a0f0f;
+  border-radius: 10px;
+  text-align: center;
+
+  box-shadow: 0;
+  padding: 30px;
+  max-width: 400px;
+  line-height: 1;
+}
+
+.box-sect img {
+  width: 500px;
+  padding: 0%;
+  margin: 0;
+  max-width: 700px;
+  flex: 1;
+  border-radius: 5px;
 }

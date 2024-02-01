@@ -12,13 +12,17 @@ footer {
   height: 100%;
 }
 
+.footer-item {
+  text-align: center;
+}
+
 .foot-container {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
   height: 100%;
-  margin: 0 auto;
-  padding: 15px 30px;
+  margin: auto;
+  padding: 15px;
   max-width: 1400px;
 }
 
@@ -26,20 +30,22 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center content vertically */
-  height: 70%; /* Occupy full height of the parent */
+  height: 50%; /* Occupy full height of the parent */
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
   align-items: center; /* Center content vertically */
-  height: 70%; /* Occupy full height of the parent */
+  height: 50%; /* Occupy full height of the parent */
 }
 
 .fa {
-  padding: 20px;
+  padding: 10px 3px 10px 3px;
+
   font-size: 25px;
   width: 63px;
+  border-radius: 5px;
   justify-content: center;
   text-align: center;
   text-decoration: none;

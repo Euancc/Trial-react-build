@@ -14,7 +14,7 @@ function Boxes() {
               to dive sites not accessable to the public
             </p>
           </div>
-          <img src="untouched.jpg" />
+          <img src="reef.jpeg" />
         </div>
         <div className="box-sect">
           <img src="packages.jpg" />

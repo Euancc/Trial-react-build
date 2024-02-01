@@ -10,7 +10,7 @@ export default function Footer() {
 
           <p>divewithus@gmail.com</p>
           <p>0800 838383</p>
-          <p>Postal address:</p>
+          <p>Postal address :</p>
           <p>Dive Finder</p>
           <p>PO Box 975</p>
           <p>Panatina Ridge</p>
@@ -20,8 +20,8 @@ export default function Footer() {
           <h3>Sign up to our newsletter</h3>
           <div className="email-sect">
             <p>Get updated with the latest offers!</p>
-            <form>
-              <label for="email">Enter your email: </label>
+            <form id="email-form-id" name="email-form-name">
+              <label htmlFor="email-form-id">Enter your email: </label>
               <input type="email"></input>
             </form>
           </div>
@@ -29,9 +29,9 @@ export default function Footer() {
         <div className="footer-item">
           <h3>Connect with us</h3>
           <div className="social-icons">
-            <a href="#" className="fa fa-facebook"></a>
             <a href="#" className="fa fa-twitter"></a>
             <a href="#" className="fa fa-instagram"></a>
+            <a href="#" className="fa fa-facebook"></a>
           </div>
         </div>
       </div>

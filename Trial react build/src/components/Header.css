@@ -18,5 +18,5 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 200px;
+  min-height: 250px;
 }

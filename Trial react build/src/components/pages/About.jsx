@@ -7,9 +7,11 @@ function About() {
   return (
     <>
       <Navbar />
-      <div className="about">
-        <h1>About</h1>
-      </div>
+      <header className="about">
+        <div className="container">
+          <h1>About</h1>
+        </div>
+      </header>
 
       <Footer />
     </>

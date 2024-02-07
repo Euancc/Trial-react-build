@@ -14,10 +14,10 @@ function Boxes() {
               to dive sites not accessable to the public
             </p>
           </div>
-          <img src="reef.jpeg" />
+          <img alt="vibrant-colured-reef" src="reef.jpeg" />
         </div>
         <div className="box-sect">
-          <img src="packages.jpg" />
+          <img alt="divers-having-fun" src="packages.jpg" />
           <div className="box">
             <h2>Variety of packages</h2>
             <p>
@@ -34,7 +34,7 @@ function Boxes() {
               qualified and can train you while on-board
             </p>
           </div>
-          <img src="dive-training.jpg" />
+          <img alt="divers-being-trained" src="dive-training.jpg" />
         </div>
       </div>
       <hr width="90%" size="2" />

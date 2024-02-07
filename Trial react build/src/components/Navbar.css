@@ -7,6 +7,7 @@
 .navbar .logo a {
   font-size: x-large;
   font-weight: bold;
+  margin: 16px;
 }
 
 .navbar a {

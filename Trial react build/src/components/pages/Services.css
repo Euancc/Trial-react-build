@@ -1,0 +1,12 @@
+.services {
+  background-image: url('Sail.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.services h1 {
+  display: flex;
+  min-height: 200px;
+  margin: 0;
+}

@@ -21,8 +21,8 @@ export default function Footer() {
           <div className="email-sect">
             <p>Get updated with the latest offers!</p>
             <form id="email-form-id" name="email-form-name">
-              <label htmlFor="email-form-id">Enter your email: </label>
-              <input type="email"></input>
+              <label htmlFor="email">Enter your email: </label>
+              <input type="email" id="email" name="email"></input>
             </form>
           </div>
         </div>

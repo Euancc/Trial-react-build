@@ -40,7 +40,7 @@ footer {
   height: 50%; /* Occupy full height of the parent */
 }
 
-.fa {
+.fab {
   padding: 10px 3px 10px 3px;
 
   font-size: 25px;
@@ -51,12 +51,12 @@ footer {
   text-decoration: none;
 }
 
-.fa:hover {
+.fab:hover {
   opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #3b5998;
+.fa-facebook-f {
+  background: #769ae8;
   color: white;
 }
 

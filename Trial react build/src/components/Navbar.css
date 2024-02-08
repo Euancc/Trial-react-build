@@ -2,6 +2,8 @@
   background: #3467;
   color: #fff;
   height: 60px;
+  position: sticky;
+  top: 0;
 }
 
 .navbar .logo a {

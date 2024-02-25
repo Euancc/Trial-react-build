@@ -29,11 +29,9 @@ export default function Footer() {
         <div className="footer-item">
           <h3>Connect with us</h3>
           <div className="social-icons">
-            {/* <a href="#" className="fa fa-twitter"></a> */}
             <i className="fab fa-twitter"></i>
-            {/* <a href="#" className="fa fa-instagram"></a> */}
+
             <i className="fab fa-instagram"></i>
-            {/* <a href="#" className="fa fa-facebook"></a> */}
             <i className="fab fa-facebook-f"></i>
           </div>
         </div>
